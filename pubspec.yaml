@@ -1,0 +1,26 @@
+name: bankbapakmu
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+  logger: ^1.2.2
+  skeletons: ^0.0.3
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  lints: 2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logo/
+  uses-material-design: true
